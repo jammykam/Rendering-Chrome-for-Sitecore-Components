@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForwardSlash.SC.RenderingChrome", "ForwardSlash.SC.RenderingChrome\ForwardSlash.SC.RenderingChrome.csproj", "{76467A8F-1005-4BF1-B0F5-BD31E5480B5D}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "ForwardSlash.SC.RenderingChrome.TDS.Core", "ForwardSlash.SC.RenderingChrome.TDS.Core\ForwardSlash.SC.RenderingChrome.TDS.Core.scproj", "{85D4F66F-4FA8-4741-8A84-EFF859E718B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76467A8F-1005-4BF1-B0F5-BD31E5480B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76467A8F-1005-4BF1-B0F5-BD31E5480B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76467A8F-1005-4BF1-B0F5-BD31E5480B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76467A8F-1005-4BF1-B0F5-BD31E5480B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D4F66F-4FA8-4741-8A84-EFF859E718B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D4F66F-4FA8-4741-8A84-EFF859E718B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D4F66F-4FA8-4741-8A84-EFF859E718B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{85D4F66F-4FA8-4741-8A84-EFF859E718B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D4F66F-4FA8-4741-8A84-EFF859E718B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D4F66F-4FA8-4741-8A84-EFF859E718B6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
