@@ -37,8 +37,8 @@ You can call the overloaded methods and pass in the text to display instead if y
  
 ## Screenshots
 
-![Highlight Controller Renderings](screenshots/highlight-regular-ee-mode.png?raw=true "Highlight Controller Renderings")
-
 ![Regular Experience Editor Mode](screenshots/highlight-regular-ee-mode.png?raw=true "Regular Experience Editor Mode")
 
 ![Highlight View Renderings](screenshots/highlight-view-rendering-chrome.png?raw=true "Highlight View Renderings")
+
+![Highlight Controller Renderings](screenshots/highlight-controller-rendering-chrome.png?raw=true "Highlight Controller Renderings")
