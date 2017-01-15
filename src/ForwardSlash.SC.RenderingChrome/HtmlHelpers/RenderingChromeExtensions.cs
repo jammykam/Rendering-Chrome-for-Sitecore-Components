@@ -30,8 +30,8 @@ namespace ForwardSlash.SC.RenderingChrome.HtmlHelpers
 
         private static IHtmlString GetChromeAttribute(this SitecoreHelper helper, string title, string attribute)
         {
-            /* Earlier version of Sitecore? Use: Sitecore.Context.PageMode.IsPageEditorEditing */
-            if (!Sitecore.Context.PageMode.IsExperienceEditorEditing)
+            /* Earlier version of Sitecore? Use: Sitecore.Context.PageMode.IsPageEditor */
+            if (!Sitecore.Context.PageMode.IsExperienceEditor)
                 return null;
 
             if (string.IsNullOrWhiteSpace(title))
