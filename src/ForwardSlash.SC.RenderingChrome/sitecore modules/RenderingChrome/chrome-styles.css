@@ -62,18 +62,22 @@ html.chromeRenderingHighlight *[data-widget-title]:nth-child(even)::before {
   background-color: rgba(191, 19, 168, 0.7);
 }
 
-html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(odd) {
+html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(odd),
+html.chromeRenderingHighlight *[data-container-title] div[class^="col-"]:nth-child(even) *[data-widget-title]:nth-child(odd) {
   border-color: rgba(191, 19, 168, 0.7);
 }
 
-html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(odd)::before {
+html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(odd)::before,
+html.chromeRenderingHighlight *[data-container-title] div[class^="col-"]:nth-child(even) *[data-widget-title]:nth-child(odd)::before {
   background-color: rgba(191, 19, 168, 0.7);
 }
 
-html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(even) {
+html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(even),
+html.chromeRenderingHighlight *[data-container-title] div[class^="col-"]:nth-child(even) *[data-widget-title]:nth-child(even) {
   border-color: rgba(0, 159, 193, 0.7);
 }
 
-html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(even)::before {
+html.chromeRenderingHighlight *[data-container-title] .columns:nth-child(even) *[data-widget-title]:nth-child(even)::before,
+html.chromeRenderingHighlight *[data-container-title] div[class^="col-"]:nth-child(even) *[data-widget-title]:nth-child(even)::before {
   background-color: rgba(0, 159, 193, 0.7);
 }
