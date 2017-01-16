@@ -37,6 +37,8 @@ You can call the overloaded methods and pass in the text to display instead if y
 
 Note that there is slight different in the JavaScript between Sitecore 8.0 and 8.1 and therefore there is a different file based on your version. You need to remove the `.sc80` from the file. If you're compiling the code yourself, also note that `PageMode` was changed to `IsExperienceEditor` in Sitecore 8.1 so you may get compile error for earlier versions so you'll need to change this line.
 
+Set `<setting name="RenderingChrome.DisplayExtededInfo" value="false" />` in environments you do not wish to show extended information for components (the View/Controller details) i.e. on Production environment.
+
 ## Screenshots
 
 ![Regular Experience Editor Mode](screenshots/highlight-regular-ee-mode.png?raw=true "Regular Experience Editor Mode")
