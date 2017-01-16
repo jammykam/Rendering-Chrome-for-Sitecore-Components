@@ -1,6 +1,6 @@
 # Highlight Sitecore Components with Rendering Chrome
 
-Default styling based on Zurb Foundation 5 framework. You may need to tweak them to work correctly for other frameworks.
+Default styling based on Zurb Foundation 5 framework, with some testing carried out on Bootstrap. You may need to tweak them to work correctly for other frameworks.
 
 Tested with Sitecore 8.0 and 8.1+. 
 
