@@ -2,7 +2,7 @@
 
 Default styling based on Zurb Foundation 5 framework. You may need to tweak them to work correctly for other frameworks.
 
-Tested with Sitecore 8.1.1+. Earlier versions will require code to be recompiled due to changes in Sitecore Kernel and JS file for checkbox handler will need to fixed to work with earlier codebase.
+Tested with Sitecore 8.0 and 8.1+. 
 
 ## Usage
 
@@ -34,7 +34,9 @@ You can call the overloaded methods and pass in the text to display instead if y
 
 * `@Html.Sitecore().ContainerChrome("This is the custom container title")`
 * `@Html.Sitecore().WidgetChrome("This is the custom widget title")`
- 
+
+Note that there is slight different in the JavaScript between Sitecore 8.0 and 8.1 and therefore there is a different file based on your version. You need to remove the `.sc80` from the file. If you're compiling the code yourself, also note that `PageMode` was changed to `IsExperienceEditor` in Sitecore 8.1 so you may get compile error for earlier versions so you'll need to change this line.
+
 ## Screenshots
 
 ![Regular Experience Editor Mode](screenshots/highlight-regular-ee-mode.png?raw=true "Regular Experience Editor Mode")
